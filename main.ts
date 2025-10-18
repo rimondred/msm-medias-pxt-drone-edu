@@ -57,7 +57,7 @@ namespace drone {
     /**
      * Définit la puissance du moteur (throttle)
      */
-    //% block="définir puissance à %percentage \\%"
+    //% block="définir puissance à $percentage"
     //% blockId=drone_set_throttle
     //% percentage.min=0 percentage.max=100
     //% weight=85
@@ -77,7 +77,7 @@ namespace drone {
     /**
      * Définit l'orientation du drone
      */
-    //% block="définir orientation roulis %roll tangage %pitch lacet %yaw"
+    //% block="définir orientation roulis $roll tangage $pitch lacet $yaw"
     //% blockId=drone_set_rpy
     //% roll.min=-90 roll.max=90
     //% pitch.min=-90 pitch.max=90
@@ -94,7 +94,7 @@ namespace drone {
     /**
      * Va à une position spécifique
      */
-    //% block="aller à position X %x Y %y altitude %z vitesse %speed"
+    //% block="aller à position X $x Y $y altitude $z vitesse $speed"
     //% blockId=drone_go_to
     //% x.min=-10 x.max=10
     //% y.min=-10 y.max=10
@@ -113,7 +113,7 @@ namespace drone {
     /**
      * Attend un certain nombre de millisecondes
      */
-    //% block="attendre %ms ms"
+    //% block="attendre $ms ms"
     //% blockId=drone_wait
     //% ms.min=100 ms.max=10000
     //% weight=70
@@ -168,7 +168,7 @@ namespace drone {
     /**
      * Définit les conditions de vent
      */
-    //% block="définir vent X %x Y %y"
+    //% block="définir vent X $x Y $y"
     //% blockId=drone_set_wind
     //% x.min=-5 x.max=5
     //% y.min=-5 y.max=5
@@ -184,7 +184,7 @@ namespace drone {
     /**
      * Définit la masse du drone
      */
-    //% block="définir masse à %mass g"
+    //% block="définir masse à $mass g"
     //% blockId=drone_set_mass
     //% mass.min=50 mass.max=1000
     //% weight=45
@@ -198,7 +198,7 @@ namespace drone {
     /**
      * Définit l'inclinaison maximale
      */
-    //% block="définir inclinaison max à %angle°"
+    //% block="définir inclinaison max à $angle"
     //% blockId=drone_set_max_tilt
     //% angle.min=10 angle.max=80
     //% weight=40
@@ -223,7 +223,7 @@ namespace drone {
     /**
      * Gestionnaire d'événements
      */
-    //% block="quand événement %event"
+    //% block="quand événement $event"
     //% blockId=drone_on_event
     //% weight=30
     export function onEvent(event: DroneEvent, handler: () => void) {
