@@ -1,0 +1,23 @@
+{
+    "name": "drone-edu",
+    "version": "0.1.0",
+    "description": "Extension pédagogique pour apprendre le pilotage de drones avec simulateur intégré",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "shims.d.ts",
+        "sim/engine.ts",
+        "sim/view.ts",
+        "editor/editor.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test/test.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj"
+}
+

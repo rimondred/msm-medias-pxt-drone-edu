@@ -1,0 +1,34 @@
+{
+  "name": "pxt-drone-edu",
+  "version": "0.1.0",
+  "description": "Extension pédagogique MakeCode pour apprendre le pilotage de drones",
+  "main": "main.ts",
+  "scripts": {
+    "build": "pxt build",
+    "test": "pxt test",
+    "serve": "pxt serve",
+    "deploy": "pxt deploy"
+  },
+  "keywords": [
+    "makecode",
+    "microbit",
+    "drone",
+    "education",
+    "simulation"
+  ],
+  "author": "MSM Medias",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-org/pxt-drone-edu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/votre-org/pxt-drone-edu/issues"
+  },
+  "homepage": "https://github.com/votre-org/pxt-drone-edu#readme"
+}
+
